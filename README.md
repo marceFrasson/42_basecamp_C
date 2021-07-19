@@ -47,3 +47,54 @@ Introduction to pointers
 | ft_strupcase | A function that transforms every letter to uppercase |
 | ft_strlowcase | A function that transforms every letter to lowercase |
 | ft_strcapitalize | A function that capitalizes the first letter of each word and transforms all other letters to lowercase |
+
+## c03
+
+| Function | Description |
+|----------|-------------|
+| ft_strcmp | Reproduce the behavior of the function strcmp |
+| ft_strncmp | Reproduce the behavior of the function strncmp |
+| ft_strcat | Reproduce the behavior of the function strcat |
+| ft_strncat | Reproduce the behavior of the function strncat |
+| ft_strstr | Reproduce the behavior of the function strstr |
+
+## c04
+
+| Function | Description |
+|----------|-------------|
+| ft_strlen | A function that counts and returns the number of characters in a string |
+| ft_putstr | A function that displays a string of characters on the standard output |
+| ft_putnbr | A function that displays the number entered as a parameter. The function has to be able to display all possible values within an int type variable |
+| ft_atoi | A function that converts the initial portion of the string pointed by str to its int
+representation |
+
+## c05
+
+| Function | Description |
+|----------|-------------|
+| ft_iterative_factorial | An iterated function that returns a number. This number is the result of a factorial operation based on the number given as a parameter |
+| ft_recursive_factorial | A recursive function that returns the factorial of the number given as a parameter |
+| ft_iterative_power | An iterated function that returns the value of a power applied to a number. An power lower than 0 returns 0. Overflows must not be handled |
+| ft_recursive_power | A recursive function that returns the value of a power applied to a number |
+| ft_fibonacci | A function ft_fibonacci that returns the n-th element of the Fibonacci sequence, the first element being at the 0 index |
+| ft_sqrt | A  function that returns the square root of a number (if it exists), or 0 if the square root is an irrational number |
+| ft_is_prime | A function that returns 1 if the number given as a parameter is a prime number, and 0 if it isn’t |
+| ft_find_next_prime | A function that returns the next prime number greater or equal to the number given as argument |
+
+## c06
+
+| Function | Description |
+|----------|-------------|
+| ft_print_program_name | A program that displays its own name |
+| ft_print_params | A program that displays its given arguments. One per line, in the same order as in the command line |
+| ft_rev_params | A program that displays its given arguments. One per line, in the reverse order of the command line |
+| ft_sort_params | A program that displays its given arguments sorted by ascii order |
+
+## c07
+
+| Function | Description |
+|----------|-------------|
+| ft_strdup | eproduce the behavior of the function strdup |
+| ft_range | A function that returns an array of int. This int array must contain all values between min and max |
+| ft_ultimate_range | A function that allocates and assigns an array of int. This int array should contain all values between min and max |
+| ft_strjoin | A function that will concatenate the set of strings pointed to by strs separating them with sep |
